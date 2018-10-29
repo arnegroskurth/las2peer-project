@@ -1,4 +1,4 @@
-package i5.las2peer.services.templateService;
+package i5.las2peer.services.fooBarGroup;
 
 import java.net.HttpURLConnection;
 
@@ -38,7 +38,7 @@ import io.swagger.annotations.SwaggerDefinition;
 @Api
 @SwaggerDefinition(
 		info = @Info(
-				title = "las2peer Template Service",
+				title = "fooBarService",
 				version = "1.0",
 				description = "A las2peer Template Service for demonstration purposes.",
 				termsOfService = "http://your-terms-of-service-url.com",
@@ -50,8 +50,7 @@ import io.swagger.annotations.SwaggerDefinition;
 						name = "your software license name",
 						url = "http://your-software-license-url.com")))
 @ServicePath("/template")
-// TODO Your own service class
-public class TemplateService extends RESTService {
+public class FooBarService extends RESTService {
 
 	/**
 	 * Template of a get function.
